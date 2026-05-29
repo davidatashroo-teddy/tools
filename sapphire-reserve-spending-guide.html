@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)file:///Users/david/Downloads/Telegram%20Desktop/sapphire-reserve-spending-guide.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Chase Sapphire Reserve — David's Spending Guide</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f1117; color: #e2e8f0; padding: 28px 24px; max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 21px; font-weight: 700; color: #f8fafc; margin-bottom: 4px; }
+  .sub { color: #64748b; font-size: 12px; margin-bottom: 28px; }
+  h2 { font-size: 13px; font-weight: 700; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.07em; margin: 28px 0 12px; }
+  h3 { font-size: 13.5px; font-weight: 600; color: #e2e8f0; margin: 14px 0 6px; }
+
+  /* Credit tracker */
+  .credit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 28px; }
+  .credit-card { background: #141921; border: 1px solid #1e293b; border-radius: 10px; padding: 16px; }
+  .credit-card .amount { font-size: 26px; font-weight: 800; color: #4ade80; margin-bottom: 2px; }
+  .credit-card .label { font-size: 12px; font-weight: 600; color: #e2e8f0; margin-bottom: 6px; }
+  .credit-card .detail { font-size: 11.5px; color: #64748b; line-height: 1.55; }
+  .credit-card .tag { display: inline-block; padding: 2px 7px; border-radius: 8px; font-size: 10px; font-weight: 700; margin-top: 6px; }
+  .tag-auto { background: #14532d; color: #4ade80; }
+  .tag-activate { background: #422006; color: #fbbf24; }
+  .tag-action { background: #1e3a5f; color: #60a5fa; }
+  .tag-expires { background: #3b1515; color: #fca5a5; }
+
+  /* Callout boxes */
+  .callout { border-radius: 10px; padding: 16px 20px; margin-bottom: 20px; }
+  .callout-green { background: #0a1f0a; border: 1px solid #166534; }
+  .callout-blue { background: #0f1e2e; border: 1px solid #1e3a5f; }
+  .callout-yellow { background: #1c1200; border: 1px solid #854d0e; }
+  .callout h3 { font-size: 13px; color: #4ade80; margin-bottom: 8px; }
+  .callout-blue h3 { color: #60a5fa; }
+  .callout-yellow h3 { color: #fbbf24; }
+  .callout p, .callout li { font-size: 12.5px; color: #cbd5e1; line-height: 1.65; }
+  .callout ul { padding-left: 16px; margin-top: 6px; }
+  .callout li { margin-bottom: 3px; }
+
+  /* Hotel cards */
+  .hotel-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+  .hotel { background: #141921; border: 1px solid #1e293b; border-radius: 8px; padding: 14px 16px; }
+  .hotel .name { font-size: 13px; font-weight: 600; color: #f1f5f9; margin-bottom: 3px; }
+  .hotel .location { font-size: 11px; color: #64748b; margin-bottom: 6px; }
+  .hotel .desc { font-size: 11.5px; color: #94a3b8; line-height: 1.5; }
+  .hotel .perks { font-size: 11px; color: #4ade80; margin-top: 6px; }
+
+  /* Restaurant list */
+  .resto-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+  .resto-city { background: #141921; border: 1px solid #1e293b; border-radius: 8px; padding: 12px 14px; }
+  .resto-city h4 { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; }
+  .resto-city li { font-size: 11.5px; color: #cbd5e1; margin-bottom: 4px; list-style: none; padding-left: 10px; position: relative; }
+  .resto-city li::before { content: "→"; position: absolute; left: 0; color: #3b82f6; font-size: 10px; }
+
+  /* Action table */
+  table { width: 100%; border-collapse: collapse; font-size: 12px; margin-bottom: 20px; }
+  th { background: #1e293b; color: #94a3b8; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; font-size: 10.5px; padding: 9px 12px; text-align: left; }
+  td { padding: 9px 12px; border-bottom: 1px solid #1e293b; vertical-align: top; line-height: 1.5; }
+  tr:hover td { background: #161d2a; }
+  .green { color: #4ade80; }
+  .yellow { color: #fbbf24; }
+  .red { color: #f87171; }
+
+  /* Timeline */
+  .timeline { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+  .quarter { background: #141921; border: 1px solid #1e293b; border-radius: 8px; padding: 14px 16px; }
+  .quarter h4 { font-size: 12px; font-weight: 700; color: #60a5fa; margin-bottom: 8px; }
+  .quarter li { font-size: 11.5px; color: #cbd5e1; margin-bottom: 5px; list-style: none; padding-left: 12px; position: relative; line-height: 1.4; }
+  .quarter li::before { content: "✓"; position: absolute; left: 0; color: #4ade80; font-size: 10px; }
+</style>
+</head>
+<body>
+
+<h1>Chase Sapphire Reserve — Spending Guide</h1>
+<p class="sub">Personal card · $795/year · Your roadmap to maximize all benefits · As of May 2026</p>
+
+<!-- TOTAL VALUE SUMMARY -->
+<div class="callout callout-green">
+  <h3>Your Annual Value Map: $795 fee → up to $2,208+ in credits</h3>
+  <p>Conservative capture (autopilot): <strong>$1,008</strong> &nbsp;|&nbsp; Full capture (active): <strong>$2,208+</strong> &nbsp;|&nbsp; Year 1 with 150K bonus: <strong>$4,008+</strong></p>
+</div>
+
+<!-- ALL CREDITS -->
+<h2>Every Credit — How to Capture It</h2>
+<div class="credit-grid">
+
+  <div class="credit-card">
+    <div class="amount">$300</div>
+    <div class="label">Annual Travel Credit</div>
+    <div class="detail">Applies automatically to the first $300 in travel purchases each year. Flights, hotels, Uber, parking, tolls, Lyft, taxis — very broad definition. This is the easiest $300 you'll ever get.</div>
+    <span class="tag tag-auto">Fully automatic — no action needed</span>
+  </div>
+
+  <div class="credit-card">
+    <div class="amount">$500</div>
+    <div class="label">The Edit Hotel Credit</div>
+    <div class="detail">Two separate $250 credits, usable anytime throughout the year (no longer half-year restricted as of 2026). Must book prepaid through Chase Travel, 2-night minimum. See hotel details below.</div>
+    <span class="tag tag-action">Book through Chase Travel portal only</span>
+  </div>
+
+  <div class="credit-card">
+    <div class="amount">$300</div>
+    <div class="label">Dining Credit (OpenTable)</div>
+    <div class="detail">$150 January–June, $150 July–December. Must dine at Sapphire Exclusive Tables restaurants on OpenTable. Connect your card in the OpenTable app first. California restaurants listed below.</div>
+    <span class="tag tag-action">Connect card in OpenTable app first</span>
+  </div>
+
+  <div class="credit-card">
+    <div class="amount">$300</div>
+    <div class="label">StubHub Credit</div>
+    <div class="detail">$150 January–June, $150 July–December. Events, concerts, sports — any StubHub or viagogo purchase counts. Valid through 12/31/2027. Must activate once through Chase app.</div>
+    <span class="tag tag-activate">⚠ One-time activation required in Chase app</span>
+  </div>
+
+  <div class="credit-card">
+    <div class="amount">$250</div>
+    <div class="label">Chase Travel Hotels (2026 only)</div>
+    <div class="detail">One-time $250 credit through 12/31/2026 on prepaid 2-night stays at IHG, Montage, Pendry, Omni, Virgin, Minor, or Pan Pacific hotels. Use this year — it expires.</div>
+    <span class="tag tag-expires">Expires 12/31/2026 — use before year end</span>
+  </div>
+
+  <div class="credit-card">
+    <div class="amount">$288</div>
+    <div class="label">Apple TV + Apple Music</div>
+    <div class="detail">Complimentary subscriptions through June 2027. If you already pay for these, cancel your billing and let the card cover it — instant $288 savings annually.</div>
+    <span class="tag tag-auto">Automatic if you activate subscriptions</span>
+  </div>
+
+  <div class="credit-card">
+    <div class="amount">$120</div>
+    <div class="label">DashPass + $300 DoorDash promos</div>
+    <div class="detail">Free DashPass membership ($120 value) through 12/31/2027. Plus $25/month in DoorDash credits ($5 restaurants + $10×2 grocery/retail). Activate DashPass through Chase first.</div>
+    <span class="tag tag-activate">Activate DashPass through Chase app</span>
+  </div>
+
+  <div class="credit-card">
+    <div class="amount">$120</div>
+    <div class="label">Lyft Credits</div>
+    <div class="detail">$10/month in Lyft in-app credits through September 2027. Plus 5x points on Lyft rides. Useful for airport runs, conference cities. Links automatically when you add card to Lyft.</div>
+    <span class="tag tag-action">Add CSR as payment method in Lyft</span>
+  </div>
+
+  <div class="credit-card">
+    <div class="amount">$120</div>
+    <div class="label">Peloton Credits</div>
+    <div class="detail">$10/month statement credit on eligible Peloton memberships through 12/31/2027. Only relevant if you have a Peloton — if not, skip.</div>
+    <span class="tag tag-activate">Activation required — skip if no Peloton</span>
+  </div>
+
+  <div class="credit-card">
+    <div class="amount">$120</div>
+    <div class="label">Global Entry / TSA PreCheck</div>
+    <div class="detail">Up to $120 reimbursement every 4 years. Global Entry ($120) is the move — includes TSA PreCheck automatically. Just charge the application fee to your card.</div>
+    <span class="tag tag-auto">Automatic when you charge the fee</span>
+  </div>
+
+</div>
+
+<!-- STACKING OPPORTUNITY -->
+<div class="callout callout-yellow">
+  <h3>⚡ Credit Stacking — The Big 2026 Move</h3>
+  <p>You can stack multiple credits on a single hotel booking this year. If the hotel qualifies for both The Edit AND the Chase Travel Select Brands credit:</p>
+  <ul>
+    <li><strong>$250</strong> — The Edit credit (one of your two)</li>
+    <li><strong>$250</strong> — Chase Travel Hotels credit (IHG/Montage/Pendry/Omni/etc.)</li>
+    <li><strong>$300</strong> — Annual travel credit (if not yet used)</li>
+    <li><strong>= $800 in statement credits on one 2-night stay</strong></li>
+  </ul>
+  <p style="margin-top:8px;">Montage Healdsburg (Napa/Sonoma, ~1.5 hours from Orinda) qualifies for both The Edit AND Montage brand credit. That's a $800 stack on one weekend trip. Book prepaid through Chase Travel.</p>
+</div>
+
+<!-- THE EDIT HOTELS - CALIFORNIA -->
+<h2>The Edit Hotels — California (Closest to You)</h2>
+
+<div class="hotel-grid">
+  <div class="hotel">
+    <div class="name">Montage Healdsburg</div>
+    <div class="location">Healdsburg, Sonoma — ~1.5 hrs from Orinda</div>
+    <div class="desc">130 treehouse-style rooms, indoor-outdoor showers, firepits. Wine country weekend. Qualifies for BOTH Edit credit AND Montage brand credit — maximum stacking opportunity.</div>
+    <div class="perks">✓ Edit perks + ✓ Montage brand credit ($250+$250) · Best stack in CA</div>
+  </div>
+
+  <div class="hotel">
+    <div class="name">Auberge du Soleil</div>
+    <div class="location">Rutherford, Napa Valley — ~1 hr 20 min from Orinda</div>
+    <div class="desc">Hillside Napa landmark overlooking Silverado Trail. One of the most iconic wine country stays. The Edit perks include daily breakfast for 2, $100 property credit, room upgrade.</div>
+    <div class="perks">✓ Edit perks: breakfast × 2, $100 property credit, upgrade</div>
+  </div>
+
+  <div class="hotel">
+    <div class="name">Four Seasons Napa Valley</div>
+    <div class="location">Calistoga, Napa — ~1.5 hrs from Orinda</div>
+    <div class="desc">Newest luxury option in Napa, built around a working winery. Harvest-season stays are spectacular.</div>
+    <div class="perks">✓ Edit perks: breakfast × 2, $100 property credit, upgrade</div>
+  </div>
+
+  <div class="hotel">
+    <div class="name">Meadowood Napa Valley</div>
+    <div class="location">St. Helena, Napa — ~1.5 hrs from Orinda</div>
+    <div class="desc">Private resort feel, wine education, country club amenities. More private than Auberge. Good for a longer weekend.</div>
+    <div class="perks">✓ Edit perks: breakfast × 2, $100 property credit, upgrade</div>
+  </div>
+
+  <div class="hotel">
+    <div class="name">St. Regis San Francisco</div>
+    <div class="location">San Francisco — 35 min from Orinda</div>
+    <div class="desc">In the city, useful for conference stays or a night in SF with Megan. Museum-adjacent, top-tier service. Edit perks turn a $500 night into a significantly discounted stay.</div>
+    <div class="perks">✓ Edit perks: breakfast × 2, $100 property credit, upgrade</div>
+  </div>
+
+  <div class="hotel">
+    <div class="name">Alila Marea Beach Resort</div>
+    <div class="location">Encinitas, San Diego — if traveling south for work</div>
+    <div class="desc">Coastal bluff above the Pacific. Complimentary surfboard rentals. Good option if you're already going to LA or San Diego for Qventus meetings.</div>
+    <div class="perks">✓ Edit perks: breakfast × 2, $100 property credit, upgrade</div>
+  </div>
+
+  <div class="hotel">
+    <div class="name">Downtown LA Proper</div>
+    <div class="location">Los Angeles — your most frequent work city</div>
+    <div class="desc">Confirmed Edit property in LA. Book through Chase Travel instead of direct when you're already going for Qventus meetings — convert work travel into Edit credit usage.</div>
+    <div class="perks">✓ Edit perks · Convert work trips into credit capture</div>
+  </div>
+
+  <div class="hotel">
+    <div class="name">Thompson Palm Springs</div>
+    <div class="location">Palm Springs — 2.5 hrs from Orinda</div>
+    <div class="desc">On the main shopping street in Palm Springs. Good desert weekend option, especially in the cooler months (Oct–Apr).</div>
+    <div class="perks">✓ Edit perks: breakfast × 2, $100 property credit, upgrade</div>
+  </div>
+</div>
+
+<div class="callout callout-blue">
+  <h3>How to book The Edit correctly</h3>
+  <p>Go to <strong>chase.com/travel</strong> → search hotels → filter or look for "The Edit" badge. Must book as prepaid (non-refundable or refundable prepaid). Minimum 2-night stay. The $250 credit posts as a statement credit within 1–2 billing cycles. You still earn UR points on the full charge amount before the credit.</p>
+</div>
+
+<!-- DINING CREDIT -->
+<h2>$300 Dining Credit — California Restaurants</h2>
+<p style="font-size:12.5px; color:#94a3b8; margin-bottom:14px;">Connect your card in OpenTable app → browse "Sapphire Exclusive Tables" → filter by city. $150 credit Jan–Jun, $150 Jul–Dec. No minimum spend. Just pay with your CSR after reserving through OpenTable.</p>
+
+<div class="resto-grid">
+  <div class="resto-city">
+    <h4>San Francisco / Bay Area</h4>
+    <ul>
+      <li>Gary Danko</li>
+      <li>Californios</li>
+      <li>Popoca</li>
+      <li>SingleThread Farms (Healdsburg)</li>
+    </ul>
+  </div>
+  <div class="resto-city">
+    <h4>Los Angeles</h4>
+    <ul>
+      <li>Dunsmoor</li>
+      <li>Majordōmo</li>
+      <li>Gwen Butcher Shop</li>
+      <li>Delilah</li>
+    </ul>
+  </div>
+  <div class="resto-city">
+    <h4>San Diego</h4>
+    <ul>
+      <li>Coasterra</li>
+      <li>Marisi</li>
+      <li>Ironside Fish &amp; Oyster</li>
+      <li>The Marine Room</li>
+    </ul>
+  </div>
+</div>
+<p style="font-size:11px; color:#475569; margin-top:-10px; margin-bottom:20px;">⚠ This is a partial list — full restaurant directory is in OpenTable under "Sapphire Exclusive Tables." Rotate by city. $800/month dining spend means you'll hit both $150 windows easily.</p>
+
+<!-- STUBHUB -->
+<h2>$300 StubHub Credit — How to Use</h2>
+<div class="callout callout-blue">
+  <h3>Setup (one time, do this now)</h3>
+  <ul>
+    <li>Open Chase app → Benefits → find StubHub credit → activate</li>
+    <li>After activation, any StubHub or viagogo purchase charged to your CSR automatically gets the credit</li>
+    <li>$150 for Jan–Jun purchases, $150 for Jul–Dec — credits don't roll over if unused</li>
+    <li>Concert tickets, Warriors/Giants/49ers games, theater, comedy shows — all count</li>
+    <li>Use by June 30 for first $150, then again by December 31 for second $150</li>
+  </ul>
+</div>
+
+<!-- QUARTERLY CHECKLIST -->
+<h2>Quarterly Action Checklist</h2>
+<div class="timeline">
+  <div class="quarter">
+    <h4>Now (May–June 2026)</h4>
+    <ul>
+      <li>Activate StubHub credit in Chase app</li>
+      <li>Connect CSR to OpenTable → find SF/Bay Area Sapphire restaurants</li>
+      <li>Activate DashPass through Chase</li>
+      <li>Cancel Apple TV/Music billing if you have them — let card cover it</li>
+      <li>Book one The Edit hotel (Napa/Sonoma weekend?)</li>
+      <li>Use $150 StubHub credit before June 30</li>
+      <li>Use $150 dining credit before June 30</li>
+      <li>Use $250 Chase Travel Hotels credit before 12/31 — plan this</li>
+    </ul>
+  </div>
+  <div class="quarter">
+    <h4>July–December 2026</h4>
+    <ul>
+      <li>Second $150 StubHub credit resets July 1</li>
+      <li>Second $150 dining credit resets July 1</li>
+      <li>Book second The Edit stay (use second $250 credit)</li>
+      <li>Make sure $300 travel credit has been used (it should be auto)</li>
+      <li>Check $250 Chase Travel Hotels credit — must use by 12/31/2026</li>
+      <li>Global Entry renewal if coming up</li>
+    </ul>
+  </div>
+</div>
+
+<!-- EARN RATES SUMMARY -->
+<h2>What to Put on This Card</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Spend Category</th>
+      <th>Earn Rate</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Chase Travel portal (flights, hotels)</td>
+      <td class="green">8x points</td>
+      <td>Book through chase.com/travel — this is the highest earn rate</td>
+    </tr>
+    <tr>
+      <td>Direct flights</td>
+      <td class="green">4x points</td>
+      <td>Book direct with airline, not through a third party</td>
+    </tr>
+    <tr>
+      <td>Dining / restaurants</td>
+      <td class="green">3x points</td>
+      <td>Your $800/mo dining → ~2,400 pts/mo → 28,800 pts/year</td>
+    </tr>
+    <tr>
+      <td>General travel (hotels, Lyft, Uber, parking)</td>
+      <td class="green">3x points</td>
+      <td>Broad category — most travel qualifies</td>
+    </tr>
+    <tr>
+      <td>Lyft specifically</td>
+      <td class="green">5x points</td>
+      <td>Through Sept 2027 when you pay with CSR in Lyft app</td>
+    </tr>
+    <tr>
+      <td>Everything else</td>
+      <td class="yellow">1x points</td>
+      <td>Consider pairing with Freedom Unlimited (1.5x everywhere) for non-dining/travel</td>
+    </tr>
+  </tbody>
+</table>
+
+<p style="font-size:11px; color:#475569; margin-top:-12px;">Points redeem at 1.5¢ via Chase Travel portal, or transfer 1:1 to Hyatt (best value), United, Southwest, Air France/KLM, and others.</p>
+
+
+
+</body></html>
